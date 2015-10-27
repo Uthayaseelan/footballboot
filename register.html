@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset=utf-8>
+ <meta name=description content="Home page of Football Boots">
+ <meta name="keywords" content="football boots,football shoes">
+ <title> Football Boots </title>
+    <link rel="stylesheet" href="footballbootstyle.css" type="text/css">
+    </head>
+    <body>
+    <header>
+    <img class="logo floatCenter" alt="Logo"  />
+    <h2>No 1 Website for Football Boots</h2>
+</header>
+    
+       
+       <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="basket.html">Basket</a></li>
+                <li><a href="register.html"class="on">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+        <div class="main">
+        <div class="column1of2">
+            <p>Register with us and start shopping!</p>
+        <form action="register.php" method="post">
+            <p><label class="field">Email address:</label><input type="text" name="email"/></p>
+            <p><label class="field">First Name:</label><input type="text" name="fname" /></p>
+            <p><label class="field">Surname:</label> <input type="text" name="sname" /> </p>
+            <p><label class="field">Post Code:</label> <input type="text" name="pcode" /></p>
+            <p><label class="field">Password:</label> <input type="password" name="pass" /></p>
+            <p><label class="field"><input type="submit" value="Register" /></label></p>
+        </form>
+        </div>
+        <div class="column2of2">
+            <p>Already an existing customer.</p>
+            <form action="login.php" method="post">
+            <p><label class="field">Email address:</label><input type="text" name="email" /></p>
+                <p><label class="field">Password:</label><input type="password" name="pass" /></p>
+                <p><label class="field"><input type="submit" value="Log In" /></label></p>
+            </form>
+        </div>
+    </div>
+        
+          <footer>
+<address>&copy; Copyright 2015 All Rights Reserved 
+    <p></p> Developed By: <a href ="mailto:uthayaseelan.rasalingam@city.ac.uk">Uthayaseelan Rasalingam</a></P</address>
+</footer>
+        </body>
+
+</html>

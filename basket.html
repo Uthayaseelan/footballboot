@@ -1,0 +1,42 @@
+<?php session_start()?>
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset=utf-8>
+ <meta name=description content="Home page of Football Boots">
+ <meta name="keywords" content="football boots,football shoes">
+ <title> Football Boots </title>
+    <link rel="stylesheet" href="footballbootstyle.css" type="text/css">
+    </head>
+    <body>
+    <header>
+    <img class="logo floatCenter" alt="Logo"  />
+    <h2>No 1 Website for Football Boots</h2>
+</header>
+    
+       
+         <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="basket.html"class="on">Basket</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+            
+            <div class="main">
+            
+                <?php
+                include "main.php";
+                display_basket();
+                ?>
+                
+                </div>
+
+        
+      <footer>
+<address>&copy; Copyright 2015 All Rights Reserved 
+    <p></p> Developed By: <a href ="mailto:uthayaseelan.rasalingam@city.ac.uk">Uthayaseelan Rasalingam</a></P</address>
+</footer>
+    
+    </body>
+</html>

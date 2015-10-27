@@ -1,0 +1,107 @@
+body {
+background-color: #01A611 ;
+    font-family: Lucida Grande;
+        color: #050505;
+        padding: 22px;
+}
+h1 {
+    padding: 12px;
+    line-height: 2em;
+    text-align: center;
+    font-size: 500%;
+    color: #F70A0E;
+}
+h2 {
+    padding: 20px;
+    line-height: 2em;
+    text-align: center;
+    font-style: oblique;
+    font-size: 200%;
+    color: #FC0000;
+}
+p {
+    padding: 6px;
+    line-height: 2me;
+    text-align: left;
+    
+}
+
+
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+
+.column1of2 {
+				float: right;
+				width: 540px;
+				margin: 10px;
+}
+.column2of2 {
+				float:left;
+				width: 600px;
+				margin: 10px;
+    
+}
+
+.logo {
+    width: 1200px;
+    height: 200px;
+    content: url(images/Banner.jpg);
+    
+}
+
+    
+}
+label.field {
+    text-align: right;
+    width: 120px;
+    float: left;
+    font-weight: bold;
+    display: block;    
+}
+
+
+ul.nav {
+    margin:12;
+    padding:12;
+    list-style:none;
+    height:49px; line-height:47px;
+    background:#000000; /* you can change the backgorund color here. */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
+}
+ul.nav li {
+    border-right:2px solid #01A611; /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav a {
+    display:inline-block;
+    padding:0 76px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+a:hover, a.on {
+				color: #FC0000;
+				background-color: #05EBF7;
+                
+}
+
+footer {
+width: 100%;
+background: #050505;
+float: left;
+margin: 0 0 .2% 10;
+border-radius: 20px;
+box-shadow: 6px 6px 10px #202020;
+    
+}
+
+address {
+font-size : 14px; 
+text-align : center; 
+color: #efefef;
+padding: 1% 0;
+
+}
+
+
