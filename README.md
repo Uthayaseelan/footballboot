@@ -1,2 +1,2 @@
 # footballboot
-This is a e-commerce website that i create for my coursework at university.
+This is a e-commerce website that i created for my coursework at university.
